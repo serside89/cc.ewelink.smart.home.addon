@@ -1,0 +1,10 @@
+{
+  "name": "ewelink-smart-home-addon",
+  "version": "1.0.0",
+  "description": "Servidor para eWeLink Smart Home",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  }
+}
