@@ -1,4 +1,4 @@
-FROM    node:lts-bullseye-slim
+FROM arm64v8/node:lts-bullseye-slim
 ENV     NODE_ENV=production
 ENV     APP_ENV=prod
 
@@ -11,3 +11,4 @@ RUN npm install pm2 -g
 EXPOSE 8321
 
 CMD     ["pm2-runtime", "start", "index.js"]
+
