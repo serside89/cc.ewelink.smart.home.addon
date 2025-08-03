@@ -1,0 +1,15 @@
+{
+  "name": "eWeLink Smart Home",
+  "version": "1.4.3",
+  "slug": "ewelink_smart_home",
+  "description": "eWeLink control bridge for Home Assistant",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["aarch64"],
+  "options": {},
+  "schema": {},
+  "ports": {
+    "8321/tcp": 8321
+  },
+  "image": "local/ewelink_smart_home"
+}
